@@ -18,6 +18,9 @@ object CatsWorkshop extends App {
   implicit val intEq: Eq[Int] =
     (x: Int, y: Int) => x == y
 
+  // Check semigroup laws:
+  // 1. Ints are closed under max operation
+  // 2. Associative law
   GroupLaws[Int].semigroup(Semigroup[Int]).all.check()
 
 }
