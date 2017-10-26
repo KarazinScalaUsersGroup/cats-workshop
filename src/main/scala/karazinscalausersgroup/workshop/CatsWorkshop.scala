@@ -55,10 +55,9 @@ object CatsWorkshop extends App {
   )
 
 
-  // Check monoid laws:
+  // Check semigroup laws:
   // 1. Ints are closed under multiplication
   // 2. Associative law
-  // 3. Left and right unit law
 
   implicit def statsEq[S <: Stats]: Eq[S] =
     (x: S, y: S) => x.name == y.name && x.value == y.value
