@@ -26,7 +26,7 @@ object CatsWorkshop extends App {
   println( (Scissors: Game) |+| (Rock: Game) )
 
   // Check semigroup laws:
-  // 1. Ints are closed under multiplication
+  // 1. Game are closed under turn operation
   // 2. Associative law
   implicit val gameEq: Eq[Game] =
     (x: Game, y: Game) => x == y
