@@ -56,7 +56,7 @@ object CatsWorkshop extends App {
 
 
   // Check semigroup laws:
-  // 1. Ints are closed under multiplication
+  // 1. Stats are closed under addition of values
   // 2. Associative law
 
   implicit def statsEq[S <: Stats]: Eq[S] =
