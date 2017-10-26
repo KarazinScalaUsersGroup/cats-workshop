@@ -33,7 +33,7 @@ object CatsWorkshop extends App {
 
 
   // Check monoid laws:
-  // 1. Ints are closed under multiplication
+  // 1. Flow is closed under composition
   // 2. Associative law
   // 3. Left and right unit law
 
