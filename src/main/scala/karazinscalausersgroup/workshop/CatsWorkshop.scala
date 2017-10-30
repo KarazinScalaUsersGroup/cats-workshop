@@ -45,4 +45,5 @@ object CatsWorkshop extends App {
   val testFlow = testIncrementer compose testMultiplicator
   val testValue: Id[Option[Int]] = Option(3)
   println(testFlow(testValue))
+
 }
