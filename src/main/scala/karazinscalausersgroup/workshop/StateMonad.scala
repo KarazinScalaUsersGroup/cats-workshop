@@ -2,8 +2,6 @@ package karazinscalausersgroup.workshop
 
 
 object StateMonad extends App {
-  // 7
-
   import cats.data.{EitherT, OptionT, StateT}
   import cats.instances.option._
   import cats.syntax.applicative._

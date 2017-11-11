@@ -4,7 +4,6 @@ package karazinscalausersgroup.workshop
   * @author Igor Wolkov
   */
 object MonadTransformers extends App {
-  // 1
   import cats.data.{EitherT, OptionT}
   import cats.instances.either._
   import cats.instances.future._
