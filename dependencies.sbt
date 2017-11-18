@@ -1,8 +1,7 @@
 
 
 libraryDependencies ++= {
-  val shapelessV = "2.3.2"
-  val catsV      = "1.0.0-MF"
+  val catsV       = "1.0.0-RC1"
   val scalacheckV = "1.13.4"
 
   Seq(
